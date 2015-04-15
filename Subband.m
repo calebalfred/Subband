@@ -4,7 +4,7 @@ clear all;
 clc;
 
 %Load in Signal Samples
-load subband.dat;
+load money.dat;
 x = subband';
 
 %Display Signal
