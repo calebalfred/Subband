@@ -4,7 +4,7 @@ import scipy.fftpack as fp
 import numpy as np
 
 # Load in the signal
-x = np.loadtxt('subband.dat')
+x = np.loadtxt('money.dat')
 
 # Create QMF's
 h1 = np.array([0.0089874495, -0.0681367500, 0.0669402090, 0.4906729800, 0.4906729800, 0.0669402090, -0.0681367500, 0.0089874495]);
